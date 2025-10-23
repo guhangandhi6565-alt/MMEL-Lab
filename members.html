@@ -5,7 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Members - MMEL Lab</title>
   <link rel="stylesheet" href="css/style.css">
-</head>
+</head> <style>
+.members-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+.member {
+  text-align: center;
+}
+
+.member img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.member img:hover {
+  transform: scale(1.05);
+}
+
+.member p {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+</style>
+
 <body>
 <header>
   <h1>Our Team</h1>
@@ -20,10 +52,11 @@
 <main>
   <section>
     <h2>PhD Scholars</h2>
+    <div class="members-container">
     <div class="member"><img src="images/placeholder.png" alt=""><p>Mr. Niloy Basu</p></div>
     <div class="member"><img src="images/images/guhan.jpg" alt=""><p>Mr. Guhan G</p></div>
     <div class="member"><img src="images/images/sindhu.jpg" alt=""><p>Ms. Sindhu S</p></div>
-  </section>
+  </div>
   <section>
     <h2>M.Tech Project Student</h2>
     <div class="member"><img src="images/placeholder.png" alt=""><p>Vyshakh</p></div>
