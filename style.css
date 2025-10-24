@@ -36,3 +36,22 @@ footer {
   text-align: center;
   padding: 10px;
 }
+/* Navigation Bar Styling */
+nav {
+  background-color: #2c3e50;     /* Dark premium blue-grey */
+  padding: 12px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;                  /* White text */
+  text-decoration: none;
+  margin: 0 18px;                /* Proper spacing between items */
+  font-size: 17px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f1c40f;                /* Soft gold hover color */
+}
