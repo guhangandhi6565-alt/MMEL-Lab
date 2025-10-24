@@ -87,4 +87,16 @@ h2 {
 p {
   text-align: justify;
 }
+.leader-profile h3 {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.leader-profile p {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #444;
+}
 
