@@ -58,3 +58,33 @@ footer {
 .leader-profile img:hover {
   transform: scale(1.05);
 }
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+  text-align: justify;
+}
+
