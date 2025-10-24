@@ -42,10 +42,19 @@ footer {
 }
 
 .leader-profile img {
-  width: 100px;
-  height: 100px;
+  width: 140px;          /* Reduced size (you can adjust 120–160) */
+  height: 140px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #444;
-  margin-bottom: 15px;
+  
+  border: 4px solid #ffffff;          /* White premium border */
+  box-shadow: 0 0 12px rgba(0,0,0,0.25); /* Soft shadow for premium look */
+  
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;    /* Smooth hover */
+}
+
+/* Optional: image hover zoom effect (looks premium) */
+.leader-profile img:hover {
+  transform: scale(1.05);
 }
